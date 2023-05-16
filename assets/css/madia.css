@@ -57,6 +57,11 @@
         /* text-align: center; */
         margin-bottom: 100px;
     }
+    
+    .apply-p p {
+        font-size: 20px;
+        margin-top: 20px;
+    }
 
     .corporate-img .cor-img {
         height: 250px;
