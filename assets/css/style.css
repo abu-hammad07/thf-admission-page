@@ -251,7 +251,7 @@
     padding: 20px;
     border-radius: 8px;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-    /* margin: 20px 30% 20px 35%; */
+    margin: 20px 30% 20px 35%;
 }
 .apply-btn:hover {
     background-color: #46972C;
