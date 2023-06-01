@@ -1,0 +1,396 @@
+
+@media only screen and (min-width:0px) and (max-width: 992px) {
+
+    /* ===============navber start================ */
+    .navbar {
+        width: 100%;
+        background-color: #46972C !important;
+        margin-top: 0;
+        padding-top: 0px !important;
+        border-radius: 0px;
+        height: 80px;
+
+    }
+
+    .admission-box-h2,
+    .eligibi-criteria .eligi,
+    .docu-required,
+    .schol-h3 {
+        font-weight: 700;
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+
+    .admission-box-h2::after {
+        content: '';
+        display: block;
+        width: 90px;
+        height: 6px;
+        background-color: green;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .admission-box {
+        padding-left: 0px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .green-line {
+        display: none;
+    }
+
+    /* =====================navbar end ==================== */
+
+    /* ELIGOBILITY CRITERIA */
+    .eligibi-criteria ul {
+        padding-left: auto !important;
+        padding-right: auto !important;
+    }
+
+    .img1 {
+        height: 250px;
+        width: 350px;
+        margin-top: -80px;
+    }
+
+    /****** Scholarship ******/
+    .schol {
+        display: none;
+    }
+
+    .schol-h3 {
+        margin-bottom: 60px;
+    }
+
+    .schol-p p {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: auto;
+        margin-bottom: 100px;
+    }
+
+    /******Apply**************/
+    .apply-p p {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .corporate-img .cor-img {
+        height: 250px;
+        width: 350px;
+    }
+
+    .apply-btn {
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 44px;
+        padding: 10px;
+        margin: -50px 20% 0 25%;
+
+    }
+}
+
+@media only screen and (min-width:0px) and (max-width: 320px) {
+
+    /* ====================card circle animsstion start=============== */
+    .lol {
+        width: 130.02px;
+        height: 130.02px;
+        border: 1px solid #043C8B;
+        box-shadow: var(--card-shedow);
+        margin: 0px auto 64px auto;
+        border-radius: 50%;
+    }
+
+    .card-circle {
+        width: 15px;
+        height: 15px;
+        background-color: #46972C;
+        border-radius: 50%;
+        position: relative;
+        top: 60px;
+        overflow: hidden;
+        margin: auto;
+        -webkit-animation: circle 5s linear infinite;
+        animation: circle 5s linear infinite;
+
+    }
+
+    @-webkit-keyframes circle {
+        0% {
+            transform: rotate(0deg) translate(-70px) rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg) translate(-70px) rotate(-365deg);
+        }
+    }
+
+    @keyframes circle {
+        0% {
+            transform: rotate(0deg) translate(-70px) rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg) translate(-60px) rotate(-365deg);
+        }
+    }
+
+    /* ====================card circle start=============== */
+    .card-circle a {
+        text-decoration: none;
+    }
+
+
+    .sing-up {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 120.5%;
+        text-align: center;
+        text-shadow: var(--shedow);
+        padding-top: 10px;
+    }
+
+    .click-here {
+        font-weight: 800;
+        font-size: 12px;
+        line-height: 9.5%;
+        color: #9F0D0D;
+        text-shadow: 0px 4px 4px var(--shedow);
+    }
+
+    .step {
+        width: 55.28px;
+        height: 24.96px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 8px;
+        padding-top: 4px;
+        font-weight: 500;
+        font-size: 10px;
+    }
+
+    .img1 {
+        height: 250px;
+        width: 300px;
+    }
+
+    .apply-btn {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 44px;
+    }
+
+    /* ====================card circle end=============== */
+    
+}
+
+@media only screen and (min-width:321px) and (max-width: 425px) {
+
+    /* ====================card circle animsstion start=============== */
+    .lol {
+        width: 150.02px;
+        height: 150.02px;
+        border: 1px solid #043C8B;
+        box-shadow: var(--card-shedow);
+        margin: 0px auto 64px auto;
+        border-radius: 50%;
+    }
+
+    .card-circle {
+        width: 15px;
+        height: 15px;
+        background-color: #46972C;
+        border-radius: 50%;
+        position: relative;
+        top: 70px;
+        overflow: hidden;
+        margin: auto;
+        -webkit-animation: circle 5s linear infinite;
+        animation: circle 5s linear infinite;
+
+    }
+
+
+    @-webkit-keyframes circle {
+        0% {
+            transform: rotate(0deg) translate(-80px) rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg) translate(-80px) rotate(-365deg);
+        }
+    }
+
+    @keyframes circle {
+        0% {
+            transform: rotate(0deg) translate(-80px) rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg) translate(-70px) rotate(-365deg);
+        }
+    }
+
+    /* ====================card circle animsstion end=============== */
+
+    /* ====================card circle start=============== */
+    .card-circle a {
+        text-decoration: none;
+    }
+
+    .sing-up {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 150.5%;
+        text-align: center;
+        text-shadow: var(--shedow);
+        padding-top: 10px;
+    }
+
+    .click-here {
+        font-weight: 800;
+        font-size: 12px;
+        line-height: 14.5%;
+        color: #9F0D0D;
+        text-shadow: 0px 4px 4px var(--shedow);
+    }
+
+    .step {
+        width: 55.28px;
+        height: 24.96px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 8px;
+        padding-top: 4px;
+        font-weight: 500;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width:426px) and (max-width: 570px) {
+
+    /* ====================card circle animsstion=============== */
+    .lol {
+        width: 150.02px;
+        height: 150.02px;
+        border: 1px solid #043C8B;
+        box-shadow: var(--card-shedow);
+        border-radius: 50%;
+    }
+
+    .card-circle {
+        width: 15px;
+        height: 15px;
+        background-color: #46972C;
+        border-radius: 50%;
+        position: relative;
+        top: 70px;
+        overflow: hidden;
+        margin: auto;
+        -webkit-animation: circle 5s linear infinite;
+        animation: circle 5s linear infinite;
+
+    }
+
+
+    @-webkit-keyframes circle {
+        0% {
+            transform: rotate(0deg) translate(-80px) rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg) translate(-80px) rotate(-365deg);
+        }
+    }
+
+    @keyframes circle {
+        0% {
+            transform: rotate(0deg) translate(-80px) rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg) translate(-70px) rotate(-365deg);
+        }
+    }
+
+    /* ====================card circle animsstion end=============== */
+
+    /* ====================card circle start=============== */
+    .card-circle a {
+        text-decoration: none;
+    }
+
+
+    .sing-up {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 187.5%;
+        text-align: center;
+        text-shadow: var(--shedow);
+        padding-top: 5px;
+    }
+
+    .click-here {
+        font-weight: 800;
+        font-size: 13px;
+        line-height: 9.5%;
+        color: #9F0D0D;
+        text-shadow: 0px 4px 4px var(--shedow);
+    }
+
+    .step {
+        width: 55.28px;
+        height: 24.96px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 8px;
+        padding-top: 4px;
+        font-weight: 500;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width:993px) and (max-width: 1024px) {
+
+    /*======================Eligibie Cretiea=================*/
+    .img1 {
+        height: 350px;
+        width: 400px;
+    }
+}
+
+/* ====================Footer Start=============== */
+@media only screen and (max-width: 600px) {
+    #logo {
+        margin: 20px 0 20px 0;
+    }
+.logo-img{
+    margin: 20px 0;
+}
+
+    footer .list a {
+        margin: 0;
+    }
+    footer .footer-last .social {
+        display: block;
+        /* margin: 0; */
+        margin: 20px 0;
+    }
+    .contact {
+        text-align: start;
+    }
+    .contact1 {
+        display: block;
+    }
+
+    .footer-content{
+        margin-left: 30px; margin-right: 30px;
+    }
+  }
+/* ====================Footer end=============== */
+  
